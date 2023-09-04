@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Online Shopping</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Online Shopping Store</h1>
+    </header>
+    <main>
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>$20.99</p>
+            <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <h2>Product 2</h2>
+            <p>$15.49</p>
+            <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="Product 3">
+            <h2>Product 3</h2>
+            <p>$12.99</p>
+            <button class="add-to-cart" data-product-id="3">Add to Cart</button>
+        </div>
+</main>
+    <aside>
+        <h2>Your Cart</h2>
+        <div id="cart">
+            <p>Your cart is empty.</p>
+        </div>
+    </aside>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Chat with us</h2>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <p>Welcome! How can we assist you today?</p>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+</body>
+</html>
